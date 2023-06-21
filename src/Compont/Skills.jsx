@@ -4,6 +4,7 @@ import css from '../img/css.png'
 import js from '../img/js.png'
 import react from '../img/React.png'
 import talwind from '../img/Tailwind_CSS.png'
+import node from '../img/node.png'
 const Skills = () => {
   return (
     <div>
@@ -19,7 +20,7 @@ const Skills = () => {
        
         <span className='text-gray-400 flex  flex-col justify-center text-center font-semibold '><img src={talwind} alt='logo' className='w-20 dark:shadow-md dark:shadow-gray-500'/><p>Tailwind Css</p></span>
 
-        <span className='text-gray-400 flex  flex-col justify-center text-center font-semibold '><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png' alt='logo' className='w-20 dark:shadow-md dark:shadow-gray-500'/><p className='pt-7'>Node js</p></span>
+        <span className='text-gray-400 flex  flex-col justify-center text-center font-semibold '><img src={node}/><p className='pt-7'>Node js</p></span>
        </div>
     </div>
   )
