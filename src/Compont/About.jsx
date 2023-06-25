@@ -4,8 +4,8 @@ import p from '../img/p1.png'
 const About = () => {
   return (
     <div className='container m-auto px-5 py-10 flex flex-col items-center gap-10 lg:flex-row pt-10'>
-      <img src={p} alt='imu' className=' w-[200px]  h-[300px] rounded-full object-cover'/> 
-      <div className='flex flex-col gap-3'>
+      <img src={p} alt='imu' className='hidden md:flex w-[200px] h-[300px] rounded-full object-cover'/> 
+      <div className='flex flex-col gap-3 justify-center text-center md:text-left '>
         <p className='text-indigo-600 font-bold flex justify-center text-2xl '>ABOUT ME</p>
         <p className='text-3xl font-medium dark:text-white'>Better Design</p>
         <p className='text-3xl font-medium dark:text-white'>Better Experiance</p>
