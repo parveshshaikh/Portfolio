@@ -49,7 +49,7 @@ const toggle=()=>{
   <div>
   <div className='absolute bottom-1 right-5 flex items-center gap-2'>
   {
-    theme==='dark'? <img src='https://cdn-icons-png.flaticon.com/512/169/169367.png' alt='imu' className=' w-5 h-5' onClick={change_theme}/>:<img src='https://static.vecteezy.com/system/resources/previews/013/453/247/non_2x/golden-ramadan-moon-free-png.png' alt='imu' className=' w-5 h-5' onClick={change_theme}/>
+    theme==='dark'? <img src='https://cdn-icons-png.flaticon.com/512/169/169367.png' alt='imu' className='hidden md:flex w-5 h-5' onClick={change_theme}/>:<img src='https://static.vecteezy.com/system/resources/previews/013/453/247/non_2x/golden-ramadan-moon-free-png.png' alt='imu' className='hidden md:flex w-5 h-5' onClick={change_theme}/>
    }
     <div className=' md:hidden dark:text-gray-100 ' >
       {
