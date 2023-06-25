@@ -20,7 +20,7 @@ const Skills = () => {
        
         <span className='text-gray-400 flex  flex-col justify-center text-center font-semibold '><img src={talwind} alt='logo' className='w-20 dark:shadow-md dark:shadow-gray-500'/><p>Tailwind Css</p></span>
 
-        <span className='text-gray-400 flex  flex-col justify-center text-center font-semibold '><img src={node}/><p className='pt-7'>Node js</p></span>
+        <span className='text-gray-400 flex  flex-col justify-center text-center font-semibold '><img src={node} alt='logo' className='w-20 dark:shadow-md dark:shadow-gray-500'/><p className='pt-7'>Node js</p></span>
        </div>
     </div>
   )
